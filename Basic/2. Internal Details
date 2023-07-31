@@ -1,0 +1,20 @@
+Class File -> Classloader -> Bytecode verified -> Interpreter -> Runtime -> Hardware
+
+Classloader: Subsystem of JVM that is used to load class Files
+Bytecode Verifier: Checks the code fragments for illegal code that can violate access rights to objects
+Interpreter: Read bytecode stream then execute the instructions
+
+Can you save a Java source file by another name than the class name?
+Yes, if the class is not public.
+
+//Hard.java
+Class Simple{
+    public  static void main(String[] args){
+        System.out.println("hello")
+    }
+}
+To run => javac Hard.java && java Simple
+
+
+Can you have multiple classess in a java source file?
+Yes

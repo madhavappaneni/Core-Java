@@ -1,0 +1,14 @@
+1. Consumer
+    void consumer(obj)
+2. Supplier
+    obj supply()
+    takes no input and returns a value
+3. Function
+    obj map(obj)
+    function that can map a value to a diff value
+4. Predicate
+    bool test(condition)
+    takes an objects and checks if that object satisfies a criteria
+    used to filter data
+    for ex - customers who don't have email
+    
