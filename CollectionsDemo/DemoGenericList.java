@@ -1,4 +1,4 @@
-package DemoCollections;
+package CollectionsDemo;
 
 public class DemoGenericList {
 
@@ -9,8 +9,8 @@ public class DemoGenericList {
         var iterator = list.iterator();
 
         while (iterator.hasNext()) {
-        var current = iterator.next();
-        System.out.println(current);
+            var current = iterator.next();
+            System.out.println(current);
         }
 
         for (var item : list) {

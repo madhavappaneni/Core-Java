@@ -1,10 +1,10 @@
-package DemoCollections;
+package CollectionsDemo;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-public class CollectionsDemo {
+public class CollectionsDemo1 {
     public static void main(String[] args) {
         Collection<String> collection = new ArrayList<>();
         collection.add("a");
@@ -21,7 +21,7 @@ public class CollectionsDemo {
         System.out.println(collection);
         System.out.println(collection.contains("a"));
         System.out.println(collection.size());
-        
+
         // var objectArray = collection.toArray();
 
         // var stringArray = collection.toArray(new String[0]);
